@@ -5,7 +5,7 @@ import { db } from 'db/config';
 
 import moment from 'moment';
 
-import products from 'data/products.json';
+// import products from 'data/dummy-products.json';
 
 export const useSeed = () => {
   const [isLoading, setIsLoading] = useState(false);
